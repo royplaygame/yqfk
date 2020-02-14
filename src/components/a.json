@@ -1,0 +1,40 @@
+{
+    "code":200,//正确码
+    // "code":401,错误码
+    // "msg":"参数错误",错误信息
+    "data":{
+        "taskArr":[
+            {
+                "id":1,
+                "phone":'12312',
+            },
+            {
+                "id":2,
+                "phone":'12312',
+            }
+        ],
+        //总条数
+        "total":12,
+        //每页条数
+        "pageSize":10,
+        //页数
+        "currentPage":1
+    }
+}
+
+post
+body {
+    taskid:1,
+    jobid:2,
+    phone:123
+}
+
+get 
+
+path /ahd/ah?taskid=123&jobid=1
+
+
+
+{
+    string:'asdaljd'
+}
